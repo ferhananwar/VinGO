@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vingo/static/css/main.85f19c73.css",
-    "main.js": "/vingo/static/js/main.804bb1a6.js",
+    "main.js": "/vingo/static/js/main.b84cab6a.js",
     "static/media/vinyl.jpg": "/vingo/static/media/vinyl.f56fc5a4c9298b47169d.jpg",
     "index.html": "/vingo/index.html",
     "main.85f19c73.css.map": "/vingo/static/css/main.85f19c73.css.map",
-    "main.804bb1a6.js.map": "/vingo/static/js/main.804bb1a6.js.map"
+    "main.b84cab6a.js.map": "/vingo/static/js/main.b84cab6a.js.map"
   },
   "entrypoints": [
     "static/css/main.85f19c73.css",
-    "static/js/main.804bb1a6.js"
+    "static/js/main.b84cab6a.js"
   ]
 }
