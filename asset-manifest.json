@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vingo/static/css/main.e84ce31e.css",
-    "main.js": "/vingo/static/js/main.aac8c9fb.js",
+    "main.css": "/vingo/static/css/main.5a152963.css",
+    "main.js": "/vingo/static/js/main.61a532c8.js",
     "static/media/vhome.webm": "/vingo/static/media/vhome.51548bf6d435244089c2.webm",
     "static/media/homepage.webm": "/vingo/static/media/homepage.10d956248665a412e19a.webm",
     "static/media/home.jpg": "/vingo/static/media/home.6fd6fc73f19eedccdafb.jpg",
     "static/media/vplayer.webm": "/vingo/static/media/vplayer.680ffa1da9e0d2294741.webm",
     "static/media/vinyl.jpg": "/vingo/static/media/vinyl.f56fc5a4c9298b47169d.jpg",
     "index.html": "/vingo/index.html",
-    "main.e84ce31e.css.map": "/vingo/static/css/main.e84ce31e.css.map",
-    "main.aac8c9fb.js.map": "/vingo/static/js/main.aac8c9fb.js.map"
+    "main.5a152963.css.map": "/vingo/static/css/main.5a152963.css.map",
+    "main.61a532c8.js.map": "/vingo/static/js/main.61a532c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e84ce31e.css",
-    "static/js/main.aac8c9fb.js"
+    "static/css/main.5a152963.css",
+    "static/js/main.61a532c8.js"
   ]
 }
