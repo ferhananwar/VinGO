@@ -18,10 +18,10 @@ function App() {
         <Navbar />
         <ScrollToTop/>
         <Routes>
-          <Route path='/' exact element={<Home/>}/>
+          <Route path='/vingo' element={<Home/>}/>
           <Route path='/Browse' element={<Browse/>}/>
           <Route path='/Account' element={<Account/>}/>
-          <Route path='/Register' element={<Register/>}/>
+          <Route path='/Account/Register' element={<Register/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

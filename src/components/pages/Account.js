@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import './Account.css';
+import {Link} from 'react-router-dom';
 
 function Account() {
   return (
     <>
     <div className='acc-container'>
-      <div className='intro-container'>
+      <div className='intro-container-a'>
         <h1 className='caption'>Welcome back to VinGO!</h1>
       </div>
       <div className='form-container'>
@@ -22,8 +23,8 @@ function Account() {
             </div>
           </div>
           <button className='login-button'>Sign In</button>
-          <div>Don't have an account? 
-          <a className='signUpLink' href='./Register'>Sign Up Here</a>
+          <div>Don't have an account?
+            <Link className='signUpLink' to='./register'>Sign up here</Link>
           </div>
       </div>
     </div>

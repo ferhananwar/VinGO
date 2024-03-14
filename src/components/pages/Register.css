@@ -1,23 +1,24 @@
-.acc-container{
-    height: 90vh;
+.reg-container{
+    height: 100vh;
     width: 100%;
     display: flex;
 }
 
-.intro-container{
+.intro-container-r{
     display: flex;
     height: 100%;
     flex: 50%;
-    text-align: left;
+    justify-content: center;
     align-items: center;
-    background-image: url("/public/images/vinyl.jpg");
+    background-image: url("../../assets/images/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40%;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
 }
-.caption{
-    margin-left: 70px;
+.caption-r{
+    padding: 3rem;
+    text-align: left;
     font-size: 55px;
     color: black;
 }
@@ -62,13 +63,13 @@
 }
 
 .submit-button{
-    margin: 40px 0px;
     width: 400px;
-    height: 70px;
+    padding: 20px 0;
     border-color: white;
     background-color: #0096FF;
     font-size: 18px;
     color: white;
+    margin-bottom: 15px;
 }
 .submit-button:hover{
     cursor: pointer;

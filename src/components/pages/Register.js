@@ -1,13 +1,15 @@
 import React from 'react'
 import "../../App.css"
 import './Register.css';
+import {useNavigate} from 'react-router-dom';
 
 function Register() {
+  const navigate = useNavigate();
   return (
     <>
-    <div className='acc-container'>
-      <div className='intro-container'>
-        <h1 className='caption'>Welcome back to VinGO!</h1>
+    <div className='reg-container'>
+      <div className='intro-container-r'>
+        <h1 className='caption-r'>Welcome to VinGO!</h1>
       </div>
       <div className='form-container'>
         <h1 className='title'>Create an Account</h1>
@@ -35,7 +37,7 @@ function Register() {
           </div>
           <button className='submit-button'>Submit</button>
           <div>Already have an account? 
-          <a className='signInLink' href='./Account'>Sign In</a>
+          <a className='signInLink' onClick={() => navigate(-1)} href='#' >Sign In</a>
           </div>
       </div>
     </div>

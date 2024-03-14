@@ -5,9 +5,11 @@ import './Hero.css';
 function Hero() {
   return (
     <div className='hero-container'>
-        <video src="/videos/homepage.webm" 
+        <video src={require("../assets/videos/homepage.webm")}
         autoPlay loop muted/>
-        <h1>Fall in love with your favourite music artists for the first time again </h1>
+        <h1>Discover <span>timeless</span> tunes by your favourite artists
+            in <span>authentic</span> vinyl bliss
+        </h1>
         <br></br>
         <p>Scroll down to learn more about VinGO</p>
         <p>

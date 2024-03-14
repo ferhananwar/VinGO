@@ -17,7 +17,7 @@ function Navbar() {
         <>
             <nav className="navbar sticky-top">
                 <div className="navbar-container">
-                    <Link to='/' className="navbar-logo" onClick={() => {
+                    <Link to='/vingo' className="navbar-logo" onClick={() => {
                         closeMobileMenu();
                         scrollToTop();
                     }
@@ -29,7 +29,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={() => {
+                            <Link to='/vingo' className='nav-links' onClick={() => {
                                 closeMobileMenu();
                                 scrollToTop();
                             }
@@ -38,7 +38,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <HashLink smooth to='/#about-us' className='nav-links' onClick={closeMobileMenu}>About Us</HashLink>
+                            <HashLink smooth to='/vingo#about-us' className='nav-links' onClick={closeMobileMenu}>About Us</HashLink>
                         </li>
                         <li className='nav-item'>
                             <Link to='/browse' className='nav-links' onClick={closeMobileMenu}>

@@ -4,28 +4,22 @@
     width: 100%;
     background-color: white;
 }
-.slogan-1{
+.s1-left{
     display: flex; 
     height: 100%;
     flex: 50%;
     align-items: center;
     justify-content: center;
 }
-.slogan-1 h1{
+.s1-left h1{
     padding: 0 4rem;
 }
-.vinyl-home{
+.s1-right{
     display: flex;
     height: 100%;
     flex: 50%;
     align-items: center;
     justify-content: center;
-}
-.vhome{
-    width: 45%;
-    height: 60%;
-    position: absolute;
-    z-index: 1;
 }
 
 .section-2 {
@@ -34,29 +28,38 @@
     width: 100%;
     background-color: white;
 }
-.slogan-2{
+.s2-left{
     display: flex; 
     height: 100%;
     flex: 50%;
     align-items: center;
     justify-content: center;
 }
-.slogan-2 h1{
+.s2-left h1{
     padding: 0 4rem;
 }
-.vinyl-player{
+.s2-right{
     display: flex;
     height: 100%;
     flex: 50%;
     align-items: center;
     justify-content: center;
 }
-.vplayer{
+
+.vid-home{
+    opacity: 0;
     width: 45%;
     height: 60%;
     position: absolute;
     z-index: 1;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
 }
+@keyframes fade-in {
+    to{opacity: 1;}
+}
+
 
 .about-container {
     height: 150vh;

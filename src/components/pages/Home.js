@@ -8,20 +8,20 @@ function Home() {
         <>
             <Hero />
             <div className='section-1'>
-                <div className='slogan-1'>
+                <div className='s1-left'>
                     <h1>Spinning Memories, Creating Moments</h1>
                 </div>
-                <div className='vinyl-home'>
-                    <video src="/videos/vhome.webm"
-                        autoPlay loop muted className='vhome' />
+                <div className='s1-right'>
+                    <video src={require("../../assets/videos/vhome.webm")}
+                        autoPlay loop muted className='vid-home' />
                 </div>
             </div>
             <div className='section-2'>
-                <div className='vinyl-player'>
-                    <video src="/videos/vplayer.webm"
-                        autoPlay loop muted className='vplayer' />
+                <div className='s2-left'>
+                    <video src={require("../../assets/videos/vplayer.webm")}
+                        autoPlay loop muted className='vid-home' />
                 </div>
-                <div className='slogan-2'>
+                <div className='s2-right'>
                     <h1>Go Vinyl, Go Classic, Go VinGO!</h1>
                 </div>
             </div>
@@ -48,10 +48,10 @@ function Home() {
                         nostalgia of vinyl records, one groove at a time.
                     </p>
                     <h2>Hours of Operation</h2>
-                    <p>Monday - Saturday: 10:30am - 7:00pm EST
+                    <p>
+                        Monday - Saturday: 10:30am - 7:00pm EST
                         <br/>
                         Sunday: Closed
-
                     </p>
                     <br/>
                     <h2>Contact Information</h2>
