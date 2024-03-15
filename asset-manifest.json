@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vingo/static/css/main.2a888075.css",
-    "main.js": "/vingo/static/js/main.ef47b63f.js",
+    "main.js": "/vingo/static/js/main.b0c148ef.js",
     "static/media/vhome.webm": "/vingo/static/media/vhome.51548bf6d435244089c2.webm",
     "static/media/homepage.webm": "/vingo/static/media/homepage.10d956248665a412e19a.webm",
     "static/media/home.jpg": "/vingo/static/media/home.6fd6fc73f19eedccdafb.jpg",
@@ -9,10 +9,10 @@
     "static/media/vinyl.jpg": "/vingo/static/media/vinyl.f56fc5a4c9298b47169d.jpg",
     "index.html": "/vingo/index.html",
     "main.2a888075.css.map": "/vingo/static/css/main.2a888075.css.map",
-    "main.ef47b63f.js.map": "/vingo/static/js/main.ef47b63f.js.map"
+    "main.b0c148ef.js.map": "/vingo/static/js/main.b0c148ef.js.map"
   },
   "entrypoints": [
     "static/css/main.2a888075.css",
-    "static/js/main.ef47b63f.js"
+    "static/js/main.b0c148ef.js"
   ]
 }
